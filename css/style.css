@@ -1,9 +1,11 @@
 body, html{
 	height: 100%;
 	font-family: Raleway, sans-serif;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 1em;
 	margin: 0;
+	line-height: 1.8em;
+	color: #666;
 }
 
 .image1{
@@ -20,6 +22,7 @@ body, html{
 }
 
 .parallax{
+	opacity: .8;
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -27,15 +30,39 @@ body, html{
 	background-attachment: fixed;
 }
 
-.parallax h1{
+.parallax .ptext{
 	position: absolute;
 	top:50%;
 	width: 100%;
+	text-align: center;
+	letter-spacing: .5rem;
 	padding: 0;
 	margin: 0;
 }
 
-.desc{
+.parallax .ptext .border{
+	font-size: 2rem;
+	font-family: Poppins, sans-serif;
+	font-weight: 700;
+	color: #fff;
+	background-color: #111;
+	padding: 20px;	
+}
+
+.desc-light{
+	padding: 50px 50px;	
+	background-color: #f4f4f4;
+	color: #666;
+}
+
+.desc-dark{
 	/*background-color: #000;*/
 	padding: 70px 50px;
+	background-color: #282e34;
+	color: #ddd;
+}
+
+.desc-dark h2, .desc-light h2{
+	text-align: center;
+	text-transform: uppercase;
 }
