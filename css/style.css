@@ -1,0 +1,40 @@
+body, html{
+	min-height: 100%;
+	font-family: Raleway, sans-serif;
+	font-weight: 500;
+	font-size: 1em;
+	margin: 0;
+}
+
+.image1{
+	background: url('../img/gym.jpeg');
+}
+.image2{
+	background: url('../img/cosmos.jpg');
+}
+.image3{
+	background: url('../img/interior.jpeg');
+}
+
+.parallax{
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	background-attachment: fixed;
+}
+.parallax-second{
+	height: 500px;
+}
+.parallax h1{
+	position: absolute;
+	top:50%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.desc{
+	padding: 70px 50px;
+}
